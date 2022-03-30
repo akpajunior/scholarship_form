@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="nav">
+    <div class="logo">
+         <img src="ojo.png" alt="" srcset="">
+    </div>
+       <div class="link">
+           <a href="#"><img src="person-fill.svg" alt=""></a>
+        <a href="#"><img src="search.svg" alt=""></a>
+        <a href="#"><img src="question-octagon-fill.svg" alt="" srcset=""></a>
+       </div>
+        <div class="link2">
+            <img src="list.svg" alt="" srcset="">
+        </div>
+        
+    </div>
+   
+       
+    
+  
+    
+    <div class="header">
+        <h1>REWORK SCHOLARSHIP APPLICATION</h1>
+        <p>please fill up this form </p>
+    </div>
+    <div class="details">
+        <form>
+            <p>FIRST NAME</p>
+            <input type="text" name="firstName" id="firstName"><br><br>
+            <span class="error" id="firstNameError"></span>
+            <p>LAST NAME</p>
+            <input type="text"  name="lastName" id="lastName"><br><br>
+            <span class="error" id="lastNameError"></span>
+            <p>AGE</p>
+             <select name="age" id="age">
+               <option value="">SELECT</option>
+               <option value="1">18-24</option>
+               <option value="2">25-30</option>
+               <option value="3">31-35</option>
+               <option value="4">36-40</option>
+               <option value="5">41 & above</option>
+               
+             </select>
+             <span class="error" id="ageError"></span><br><br>
+             <P>GENDER</P>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="male">MALE</label>
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="female">FEMALE</label><br><br>
+            <span class="error" id="genderError"></span>
+            <p>PHONE NUMBER</p>
+            <input type="number"  name="phoneNumber" id="phoneNumber"><br><br>
+            <span class="error" id="phoneNumberError"></span>
+            <p>SCHOOL</p>
+            <input type="text" name="school" id="school"><br><br>
+            <span class="error" id="schoolError"></span>
+            <P>CONTINENTS</P>
+            <select name="continents" id="continents">
+                <option value="">SELECT</option>
+                <option value="1">africa</option>
+                <option value="2">asia</option>
+                <option value="3">north america</option>
+                <option value="4">south america</option>
+                <option value="5">rest of the world</option>
+                
+              </select>
+              <span class="error" id="continentsError"></span><br><br>
+              <P>GRADES</P>
+              <br>
+<input type="text" id="maths" value="MATHEMATICS" disabled>
+<input type="number" placeholder="score" name="scores" id="mathsScore" value=""><br><br>
+<span class="error" id="mathsError"></span>
+<input type="text" id="eng" value="ENGLISH" disabled>
+<input type="number" placeholder="score" name="scores" id="engScore" value="">
+<span class="error" id="engError"></span>
+               </select><br><br>
+               <select name="selectGrade" id="selectGrade">
+                <option value="">Select GRADES</option>
+                <input type="number" placeholder="score" name="scores" id="selectGradeScore" value="">
+                <span class="error" id="selectGradeError"></span>
+            </select><br><br>
+            
+            <select name="selectGrade2" id="selectGrade2">
+             <option value="">Select GRADES</option>
+             <input type="number" placeholder="score" name="scores" id="selectGradeScore2"value="">
+             <span class="error" id="selectGrade2Error"></span>
+         </select><br><br>
+         <select name="selectGrade3" id="selectGrade3">
+             <option value="">Select GRADES</option>
+             <input type="number" placeholder="score" name="scores" id="selectGradeScore3"value="">
+             <span class="error" id="selectGrade3Error"></span>
+         </select><br><br>
+         <select name="selectGrade4" id="selectGrade4">
+                <option value="">Select GRADES</option>
+                <input type="number" placeholder="score" name="scores" id="selectGradeScore4"value="">
+                <span class="error" id="selectGrade4Error"></span>
+            </select>
+         <br><br>
+            <select name="selectGrade5" id="selectGrade5">
+             <option value="">Select GRADES</option>
+             <input type="number" placeholder="score" name="scores" id="selectGradeScore5"value="">
+             <span class="error" id="selectGrade5Error"></span>
+         </select><br><br>
+         
+         <select name="selectGrade6" id="selectGrade6">
+             <option value="">Select GRADES</option>
+             <input type="number" placeholder="score" name="scores" id="selectGradeScore6"value="">
+             <span class="error" id="selectGrade6Error"></span>
+         </select><br>
+
+              <button type="button" id="regBtn">submit</button>
+        </form>
+    </div>
+    <div>
+        <canvas id="myChart"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+    <script src="main.js"></script>
+</body>
+</html>
